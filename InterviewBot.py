@@ -9,7 +9,7 @@ import random
 from io import BytesIO
 import numpy as np
 
-api_key = os.getenv("openai_api_2nd_key"
+api_key = os.getenv("openai_api_2nd_key")
 client = openai.OpenAI(api_key=api_key)
 
 # Selections fro each criterion
